@@ -41,7 +41,7 @@ const Game = () =>{
     let rock_sfx = new Audio(rock_sound);
     let paper_sfx = new Audio(paper_sound);
     let scissors_sfx = new Audio(scissors_sound);
-    let start_sfx = new Audio(start_sound);
+    let start_sfx = new Audio(start_sound); 
     let confetti_sfx = new Audio(confetti_sound);
     let lose_sfx = new Audio(lose_sound);
   
