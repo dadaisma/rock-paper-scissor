@@ -26,6 +26,7 @@ import lose_sound from "../assets/sound/lose.mp3";
 
 import ConfettiExplosion from "react-confetti-explosion";
 import { motion } from "framer-motion";
+import {RxReload} from "react-icons/rx"
 
 const Game = () =>{
     const [userChoice, setUserChoice] = useState(maleIdle);
@@ -288,13 +289,13 @@ const Game = () =>{
                 <p className="result-score">
                   {computerPoints} - {userPoints}
                 </p>
-                <motion.img
+                <motion.button className="restartbtn"
                   src={restart}
                   alt=""
                   onClick={handleReset}
                   animate={{ scale: [1, 1.2, 1.2, 1, 1] }}
                   transition={{ repeat: Infinity, duration: 1.5 }}
-                />
+                > <RxReload /> </motion.button>
               </motion.div>
             )}
           </div>
