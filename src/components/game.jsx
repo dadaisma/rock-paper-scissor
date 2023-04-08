@@ -135,7 +135,7 @@ const Game = () =>{
           setUserPoints(updatedUserPoints);
   
           if (updatedUserPoints === 5) {
-            setResult("You Win");
+            setResult("Yuppy!!! You Win!!!");
             const gameOff = true;
             setTimeout(() => {
               setGameOver(gameOff);
@@ -154,7 +154,7 @@ const Game = () =>{
           setComputerPoints(updatedComputerPoints);
   
           if (updatedComputerPoints === 5) {
-            setResult("You Lose");
+            setResult("Noooo.....You Lose, baby cat... ");
             const gameOff = true;
             setTimeout(() => {
               setGameOver(gameOff);
@@ -181,7 +181,7 @@ const Game = () =>{
                         duration: 0.5,
                       }}
                       initial={{ y: -200 }}
-                      animate={{ y: -50 }}
+                      animate={{ y: -100 }}
                     />{" "}
                   </div>
                   <div className="bottom">
@@ -191,7 +191,7 @@ const Game = () =>{
                       alt=""
                       transition={{ ease: "easeOut", duration: 0.5 }}
                       initial={{ y: 200 }}
-                      animate={{ y: 50 }}
+                      animate={{ y: 100 }}
                     />
                   </div>
                   <div className="ui">
@@ -274,9 +274,9 @@ const Game = () =>{
                   duration: 0.5,
                 }}
               >
-                {result === "You Win" && <ConfettiExplosion />}
+                {result === "You Win!!! Yuhhuu" && <ConfettiExplosion />}
                 <motion.img
-                  src={result === "You Lose" ? result_user : result_cpu}
+                  src={result === "You Lose baby cat!" ? result_user : result_cpu}
                   alt=""
                   animate={{
                     scale: [1, 1.5, 1.5, 1, 1],
