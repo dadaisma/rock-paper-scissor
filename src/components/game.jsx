@@ -275,7 +275,7 @@ const Game = () =>{
                 }}
               >
                 {result === "You Win buddy!" && <ConfettiExplosion />}
-                <motion.img
+                <motion.img className="iconpc"
                   src={result === "You Loose Kitty" ? result_user : result_cpu}
                   alt=""
                   animate={{
