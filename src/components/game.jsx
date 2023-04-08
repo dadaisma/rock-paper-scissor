@@ -274,9 +274,9 @@ const Game = () =>{
                   duration: 0.5,
                 }}
               >
-                {result === "You Win!!! Yuhhuu" && <ConfettiExplosion />}
+                {result === "Yuppy!!! You Win!!!" && <ConfettiExplosion />}
                 <motion.img
-                  src={result === "You Lose baby cat!" ? result_user : result_cpu}
+                  src={result === "Noooo.....You Lose, baby cat..." ? result_user : result_cpu}
                   alt=""
                   animate={{
                     scale: [1, 1.5, 1.5, 1, 1],
