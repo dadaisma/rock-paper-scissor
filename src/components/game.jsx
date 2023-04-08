@@ -182,7 +182,7 @@ const Game = () =>{
                         duration: 0.5,
                       }}
                       initial={{ y: -200 }}
-                      animate={{ y: -100 }}
+                      animate={{ y: -200 }}
                     />{" "}
                   </div>
                   <div className="bottom">
@@ -192,7 +192,7 @@ const Game = () =>{
                       alt=""
                       transition={{ ease: "easeOut", duration: 0.5 }}
                       initial={{ y: 200 }}
-                      animate={{ y: 100 }}
+                      animate={{ y: 200 }}
                     />
                   </div>
                   <div className="ui">
