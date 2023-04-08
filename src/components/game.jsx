@@ -181,17 +181,17 @@ const Game = () =>{
                         ease: "easeOut",
                         duration: 0.5,
                       }}
-                      initial={{ y: -200 }}
+                      initial={{ y: -100 }}
                       animate={{ y: -200 }}
                     />{" "}
                   </div>
                   <div className="bottom">
-                    <motion.img className="iconUser_bottom"
+                    <motion.img className="iconpc"
                       src={maleImg}
                       key={userChoice}
                       alt=""
                       transition={{ ease: "easeOut", duration: 0.5 }}
-                      initial={{ y: 200 }}
+                      initial={{ y: 100 }}
                       animate={{ y: 200 }}
                     />
                   </div>
