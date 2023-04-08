@@ -135,7 +135,7 @@ const Game = () =>{
           setUserPoints(updatedUserPoints);
   
           if (updatedUserPoints === 5) {
-            setResult("Yuppy!!! You Win!!!");
+            setResult("You Win buddy!");
             const gameOff = true;
             setTimeout(() => {
               setGameOver(gameOff);
@@ -154,7 +154,7 @@ const Game = () =>{
           setComputerPoints(updatedComputerPoints);
   
           if (updatedComputerPoints === 5) {
-            setResult("Noooo.....You Lose, baby cat... ");
+            setResult("You Loose Kitty");
             const gameOff = true;
             setTimeout(() => {
               setGameOver(gameOff);
@@ -274,9 +274,9 @@ const Game = () =>{
                   duration: 0.5,
                 }}
               >
-                {result === "Yuppy!!! You Win!!!" && <ConfettiExplosion />}
+                {result === "You Win buddy!" && <ConfettiExplosion />}
                 <motion.img
-                  src={result === "Noooo.....You Lose, baby cat..." ? result_user : result_cpu}
+                  src={result === "You Loose Kitty" ? result_user : result_cpu}
                   alt=""
                   animate={{
                     scale: [1, 1.5, 1.5, 1, 1],
