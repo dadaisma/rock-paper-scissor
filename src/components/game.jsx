@@ -307,6 +307,7 @@ const Game = () =>{
             transition={{ duration: 1 }}
             animate={{ y: 0 }}
           >
+            
             <motion.button
               onClick={() => {
                 setSplash(true);
