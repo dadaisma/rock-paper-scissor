@@ -125,6 +125,15 @@ const Game = () =>{
     };
   
     useEffect(() => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const shouldStartGame = urlParams.get("play") === "true";
+      if (shouldStartGame) {
+        setSplash(true);
+        startGame();
+      }
+    }, []);
+
+    useEffect(() => {
       const comboMoves = userChoice + computerChoice;
       if (userPoints <= 4 && computerPoints <= 4) {
         if (
