@@ -181,7 +181,7 @@
     
     width: 50px;
     height: 50px;
-    margin-bottom: 2remx;
+    margin-bottom: 2rem;
   }
 
   .splash button {
@@ -196,7 +196,7 @@
     color: whitesmoke;
     width: 196px;
     height: 53px;
-    margin-bottom: 15rem;
+    margin-bottom: 17rem;
     box-shadow: 0px 6px 0px #8082e5;
   }
   .splash button:hover {
