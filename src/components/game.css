@@ -5,7 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    width: 100%;
+  width: 100%;
   height: 100vh;
   
 	
@@ -141,10 +141,14 @@
   }
   .result-msg {
     font-weight: 700;
-    font-size: 21px;
-    color: #232586;
-    line-height: 25px;
+    font-size: 51px;
+    background-color: rgb(26, 8, 109);
+    color: #fcfcfc;
+    line-height: 85px;
+    width: 500px;
     margin-top: 2rem;
+    border-radius: 30px;
+    text-align: center;
   }
   .result-score {
     font-weight: 500;
@@ -152,6 +156,7 @@
     color: #ffffff;
     line-height: 49px;
     margin-bottom: 2rem;
+    
   }
   .splash {
     background-image: url("../assets/img/splash_bg.svg");
@@ -162,7 +167,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-color: #f5f7fb;
+    background-color: #000000;
   }
 
   .restartbtn{
@@ -188,7 +193,7 @@
     color: whitesmoke;
     width: 196px;
     height: 53px;
-    margin-bottom: 7rem;
+    margin-bottom: 20rem;
     box-shadow: 0px 6px 0px #8082e5;
   }
   .splash button:hover {
