@@ -142,10 +142,10 @@
   }
   .result-msg {
     font-weight: 700;
-    font-size: 51px;
+    font-size: 45px;
     background-color: rgb(26, 8, 109);
     color: #fcfcfc;
-    line-height: 75px;
+    line-height: 65px;
     width: 400px;
     margin-top: 2rem;
     
