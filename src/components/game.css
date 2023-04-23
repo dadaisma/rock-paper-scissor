@@ -210,7 +210,7 @@
   }
   @media screen and (max-height: 700px) {
     .splash button {
-      margin-bottom: 6rem;
+      margin-bottom: 4rem;
       width: calc(196px - 10%);
       height: calc(53px - 10px);
     }
