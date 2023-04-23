@@ -298,10 +298,10 @@ const Game = () =>{
                 <p className="result-score">
                   {computerPoints} - {userPoints}
                 </p>
-                <motion.svg 
+                <motion.img 
                 className="restartbtn"
                 src={restart}
-                alt="ff"
+                alt="restart"
                 onClick={handleReset}
                 animate={{ scale: [1, 1.2, 1.2, 1, 1] }}
                 transition={{ repeat: Infinity, duration: 1.5 }}
