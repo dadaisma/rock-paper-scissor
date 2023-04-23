@@ -20,7 +20,7 @@
      }
 
   .iconpc{
-    width: 400px;
+    width: 300px;
     height: auto;
   }
      
@@ -137,6 +137,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
     height: 100vh;
   }
   .result-msg {
@@ -144,9 +145,10 @@
     font-size: 51px;
     background-color: rgb(26, 8, 109);
     color: #fcfcfc;
-    line-height: 85px;
-    width: 500px;
+    line-height: 75px;
+    width: 450px;
     margin-top: 2rem;
+    
     border-radius: 30px;
     text-align: center;
   }
@@ -179,6 +181,7 @@
     
     width: 50px;
     height: 50px;
+    margin-bottom: 2remx;
   }
 
   .splash button {
@@ -193,7 +196,7 @@
     color: whitesmoke;
     width: 196px;
     height: 53px;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
     box-shadow: 0px 6px 0px #8082e5;
   }
   .splash button:hover {
