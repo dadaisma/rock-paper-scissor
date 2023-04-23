@@ -129,7 +129,7 @@ const Game = () =>{
       const shouldStartGame = urlParams.get("play") === "true";
       if (shouldStartGame) {
         setSplash(true);
-        startGame();
+        
       }
     }, []);
 
