@@ -142,7 +142,7 @@
   }
   .result-msg {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     background-color: rgb(26, 8, 109);
     color: #fcfcfc;
     line-height: 65px;
@@ -196,8 +196,9 @@
     color: whitesmoke;
     width: 196px;
     height: 53px;
-    margin-bottom: 20rem;
+    margin-bottom: 18rem;
     box-shadow: 0px 6px 0px #8082e5;
+    
   }
   .splash button:hover {
     box-shadow: initial;
@@ -210,9 +211,10 @@
   }
   @media screen and (max-height: 700px) {
     .splash button {
-      margin-bottom: 4rem;
+      margin-bottom: 2rem;
       width: calc(196px - 10%);
       height: calc(53px - 10px);
+      
     }
     .rock_icon,
     .scissors_icon {
